@@ -397,3 +397,22 @@ footer>.social-media {
     align-items: center;
     margin: 15px 40%;
 }
+/*media quries*/
+@media screen and (max-width: 600px){
+    .row-1,
+    .row-2,
+    .row-3 {
+      grid-template-columns: 1fr;
+    }
+    #save-up {
+        width: 214px;
+        height: 80px;
+        bottom: 50px;
+      }
+      #save-up h5 {
+        font-size: 15px;
+      }
+      #save-up h4 {
+        font-size: 21px;
+      }
+}
